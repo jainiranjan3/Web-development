@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <table align="center" cellpadding = "10">
+        <tr>
+            <td>FIRST NAME</td>
+            <td><input type="text" name="First_Name" maxlength="30"/>
+            </td>
+            </tr>
+        <tr>
+            <td>&nbsp;LAST NAME&emsp;&nbsp;</td>
+            <td><input type="text" name="Last_Name" maxlength="30"/>
+            </td>
+            </tr>
+        <br>
+            <br>
+            <tr>
+                <td>GENDER: &emsp;&nbsp;</td>
+                <td>
+            <select name="division" id="division">
+                <option value="Please">Please Select </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="N/A">N/A</option>
+            </select>
+        </tr>
+
+        <td>
+             DATE OF BIRTH 
+           <td><input type="date" id="birthday" name="birthday"></td>
+        </td>
+        <div>
+            <tr>
+                <td>MOBILE NUMBER</td>
+                <td>
+                <input type="text" name="Mobile_Number" maxlength="10" />
+                (10 digit number)
+                </td>
+                </tr>
+    <tr>
+        <td>EMAIL ID</td>
+        <td><input type="text" name="Email_Id" maxlength="100" /></td>
+    </tr> 
+        </div>
+        <div>
+                <td> <br> ADDRESS <br></td>
+                <td><textarea name="Address" rows="4" cols="30"></textarea></td>                
+        </div>
+    <tr>
+        <br>
+        <td>CITY &emsp; &emsp;</td>
+        <td><input type="text" name="City" maxlength="30" />
+        </td>
+    </tr>
+    <br>
+<tr>
+    <br>
+    <td>PIN CODE &nbsp;</td>
+    <td><input type="text" number="Pin_Code" maxlength="6" />
+    (6 digit number)
+    </td>
+    </tr>
+    <br>
+
+    <tr>
+        <br>
+    <td>STATE &emsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><input type="text" name="State" maxlength="30" />
+    </td>
+    </tr>
+    <br>
+     
+    <tr>
+        <br>
+    <td>COUNTRY</td>
+    <td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+    </tr>
+    <br>
+    <tr>
+        <br>
+        <td colspan="2" align="center">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </td>
+        </tr>
+    </table>
+        </form>
+</body>
+</html>
